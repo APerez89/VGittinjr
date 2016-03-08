@@ -36,6 +36,9 @@ body {
 	text-decoration: none;
 	color: #FFFFFF;
 }
+#container .nav-wrapper .nav #nav ul li a:hover, a:active, a:focus {
+	color: #87b236;
+}
 #container .nav-wrapper .nav #nav {
 	width: 321px;
 }
@@ -68,38 +71,138 @@ body {
 }
 
 /*          About          */
-#container .about-wrap {}
-#container .about-wrap .about {}
-#container .about-wrap .about h2 {}
-#container .about-wrap .about .divider {}
-#container .about-wrap .about p {}
+#container .about-wrap {
+	width: 100%;
+	height: 400px;
+}
+#container .about-wrap .about {
+	width: 67.6%;
+	margin: 0 auto;
+	padding: 85px 0;
+}
+#container .about-wrap .about h2 {
+	text-align: center;
+	font-size: xx-large;
+	font-family: sans-serif;
+	color: #2d2d2d;
+}
+#container .about-wrap .about .divider {
+	border-top: 2px solid #777777;
+}
+#container .about-wrap .about p {
+	color: #2d2d2d;
+	font-size: larger;
+	line-height: 26px;
+}
 
 /*          Mustang          */
-#container .mustang-wrap {}
-#container .mustang-wrap .mustang {}
-#container .mustang-wrap .mustang img {}
+#container .mustang-wrap {
+	width: 100%;
+	height: 980px;
+}
+#container .mustang-wrap img {
+	width: 100%;
+}
+#container .mustang-wrap .mustang {
+	width: 67.6%;
+	margin: 0 auto;
+	position: relative;
+	top: -265px;
+}
 #container .mustang-wrap .mustang .info {}
-#container .mustang-wrap .mustang .info h2 {}
-#container .mustang-wrap .mustang .info .divider {}
-#container .mustang-wrap .mustang .info p {}
+#container .mustang-wrap .mustang .info h2 {
+	text-align: center;
+	font-size: xx-large;
+	font-family: sans-serif;
+	color: #2d2d2d;
+}
+#container .mustang-wrap .mustang .info .divider {
+	border-top: 2px solid #777777;
+}
+#container .mustang-wrap .mustang .info p {
+	color: #2d2d2d;
+	font-size: larger;
+	line-height: 26px;
+}
+#container .mustang-wrap .mustang .info p a, a:visited {
+	color: #87b236;
+}
 
 /*          Maps          */
-#container .maps-wrap {}
-#container .maps-wrap .maps {}
-#container .maps-wrap .maps #drift-map {}
-#container .maps-wrap .maps #drift-map .left {}
-#container .maps-wrap .maps #drift-map .left img {}
-#container .maps-wrap .maps #drift-map .left h3 {}
-#container .maps-wrap .maps #drift-map .left p {}
-#container .maps-wrap .maps #drift-map .left .divider {}
-#container .maps-wrap .maps #drift-map .left p {}
-#container .maps-wrap .maps #drift-map .right {}
-#container .maps-wrap .maps #drift-map .right h3 {}
-#container .maps-wrap .maps #drift-map .right p {}
+#container .maps-wrap {
+	width: 100%;
+}
+#container .maps-wrap .maps {
+	width: 67.6%;
+	margin: 0 auto;
+}
+#container .maps-wrap .maps #drift-map {
+	display: -webkit-box;
+	height: 135px;
+}
+#container .maps-wrap .maps img {
+	position: relative;
+	top: 17px;
+}
+#container .maps-wrap .maps #drift-map .left {
+	width: 40%;
+	padding: 0 45px;
+}
+#container .maps-wrap .maps #drift-map .left .top h3 {
+	font-size: larger;
+	font-family: sans-serif;
+	color: #2d2d2d;
+}
+#container .maps-wrap .maps #drift-map .left .bottom {
+	display: -webkit-box;
+}
+#container .maps-wrap .maps #drift-map .left .bottom p {
+	margin: 0;
+	font-size: smaller;
+	font-family: sans-serif;
+	color: #2d2d2d;
+}
+#container .maps-wrap .maps #drift-map .left .bottom .divider {
+	border-left: 2px solid #777777;
+	margin: 0 15px;
+	height: 20px;
+	position: relative;
+	top: -6px;
+}
+#container .maps-wrap .maps #drift-map .left .bottom p {}
+#container .maps-wrap .maps #drift-map .right {
+	width: 41.3%;
+	text-align: right;
+}
+#container .maps-wrap .maps #drift-map .right h3 {
+	font-size: larger;
+	font-family: sans-serif;
+	color: #2d2d2d;
+}
+#container .maps-wrap .maps #drift-map .right p {
+	font-size: smaller;
+	font-family: sans-serif;
+	color: #2d2d2d;
+}
+
+#container .divider {
+	border-top: 5px solid #87b236;
+}
 
 /*          Videos          */
-#container .video-wrap {}
-#container .video-wrap .video {}
+#container .video-wrap {
+	width: 100%;
+	margin-top: 50px;
+}
+#container .video-wrap .video {
+	width: 67.6%;
+	margin: 0 auto;
+}
+#container .video-wrap .modal-wrap {}
+#container .video-wrap .modal-wrap a img {
+	width: 17%;
+	margin: 0 25px 0 0;
+}
 
 /*          Footer          */
 #container .footer-wrap {}
