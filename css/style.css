@@ -19,7 +19,7 @@ body {
 	box-shadow: 0 2px 3px rgba(0,0,0,0.6);
 }
 #container .nav-wrapper .nav {
-	width: 67.6%;
+	max-width: 960px;
 	margin: 0 auto;
 	display: flex;
 }
@@ -76,7 +76,7 @@ body {
 	height: 400px;
 }
 #container .about-wrap .about {
-	width: 67.6%;
+	max-width: 960px;
 	margin: 0 auto;
 	padding: 85px 0;
 }
@@ -104,7 +104,7 @@ body {
 	width: 100%;
 }
 #container .mustang-wrap .mustang {
-	width: 67.6%;
+	max-width: 960px;
 	margin: 0 auto;
 	position: relative;
 	top: -265px;
@@ -133,7 +133,7 @@ body {
 	width: 100%;
 }
 #container .maps-wrap .maps {
-	width: 67.6%;
+	max-width: 960px;
 	margin: 0 auto;
 }
 #container .maps-wrap .maps #drift-map {
@@ -145,8 +145,8 @@ body {
 	top: 17px;
 }
 #container .maps-wrap .maps #drift-map .left {
-	width: 40%;
-	padding: 0 45px;
+	width: 45%;
+	padding: 0 0 0 45px;
 }
 #container .maps-wrap .maps #drift-map .left .top h3 {
 	font-size: larger;
@@ -171,7 +171,7 @@ body {
 }
 #container .maps-wrap .maps #drift-map .left .bottom p {}
 #container .maps-wrap .maps #drift-map .right {
-	width: 41.3%;
+	width: 40%;
 	text-align: right;
 }
 #container .maps-wrap .maps #drift-map .right h3 {
@@ -196,7 +196,7 @@ body {
 	margin-top: 50px;
 }
 #container .video-wrap .video {
-	width: 67.6%;
+	max-width: 960px;
 	margin: 0 auto;
 }
 #container .video-wrap .modal-wrap {
@@ -215,7 +215,7 @@ body {
 	background-color: #2d2d2d;
 }
 #container .footer-wrap .footer {
-	width: 67.6%;
+	max-width: 960px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -236,7 +236,7 @@ body {
 	width: 100%;
 }
 #container .footer-wrap .footer .icon-bot img {
-	margin: 32px 17.4px;
+	margin: 32px 17.2px;
 }
 #container .footer-wrap .footer .social {
 	width: 100%;
