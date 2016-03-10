@@ -1,22 +1,9 @@
-// var sn = $(".nav-wrapper");
+$(document).ready(function(){
+	$(window).scroll(function(){
+		var element = document.getElementById('nav-wrapper');
+	    var elemRect = element.getBoundingClientRect(),
+	   	var offset   = elemRect.top - top;
 
-// $(window).scroll(function() {
-// 	if( $(this).scrollTop() > 800 ) {
-// 		sn.addClass(".nav-wrapper-scrolled");
-// 	}
-// 	else {
-// 		sn.removeClass(".nav-wrapper-scrolled");
-// 	}
-// });
-
-// $(document).ready(function() {
-// 	$(window).bind('scroll', function() {
-// 	var navHeight = $(window).height() - 50;
-// 		if ($(window).scrollTop() > navHeight) {
-// 			$('.nav-wrapper').addClass('fixed');
-// 		}
-// 		else {
-// 			$('.nav-wrapper').removeClass('fixed');
-// 		}
-// 	});
-// });
+		console.log('Element is ' + offset + ' vertical pixels from <body>');
+	});
+});

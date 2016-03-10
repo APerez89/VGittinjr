@@ -73,17 +73,17 @@ body {
 /*          About          */
 #container .about-wrap {
 	width: 100%;
-	height: 400px;
+	height: 450px;
 }
 #container .about-wrap .about {
 	max-width: 960px;
 	margin: 0 auto;
-	padding: 85px 0;
+	padding: 95px 0;
 }
 #container .about-wrap .about h2 {
 	text-align: center;
 	font-size: xx-large;
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #2d2d2d;
 }
 #container .about-wrap .about .divider {
@@ -92,7 +92,8 @@ body {
 #container .about-wrap .about p {
 	color: #2d2d2d;
 	font-size: larger;
-	line-height: 26px;
+	font-family: 'Titillium web', sans-serif;
+	line-height: 35px;
 }
 
 /*          Mustang          */
@@ -113,7 +114,7 @@ body {
 #container .mustang-wrap .mustang .info h2 {
 	text-align: center;
 	font-size: xx-large;
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #2d2d2d;
 }
 #container .mustang-wrap .mustang .info .divider {
@@ -122,6 +123,7 @@ body {
 #container .mustang-wrap .mustang .info p {
 	color: #2d2d2d;
 	font-size: larger;
+	font-family: 'Titillium web', sans-serif;
 	line-height: 26px;
 }
 #container .mustang-wrap .mustang .info p a, a:visited {
@@ -150,7 +152,7 @@ body {
 }
 #container .maps-wrap .maps #drift-map .left .top h3 {
 	font-size: larger;
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #2d2d2d;
 }
 #container .maps-wrap .maps #drift-map .left .bottom {
@@ -159,7 +161,7 @@ body {
 #container .maps-wrap .maps #drift-map .left .bottom p {
 	margin: 0;
 	font-size: smaller;
-	font-family: sans-serif;
+	font-family: 'Titillium web', sans-serif;
 	color: #2d2d2d;
 }
 #container .maps-wrap .maps #drift-map .left .bottom .divider {
@@ -169,19 +171,21 @@ body {
 	position: relative;
 	top: -6px;
 }
-#container .maps-wrap .maps #drift-map .left .bottom p {}
+#container .maps-wrap .maps #drift-map .left .bottom p {
+	font-family: 'Titillium web', sans-serif;
+}
 #container .maps-wrap .maps #drift-map .right {
 	width: 40%;
 	text-align: right;
 }
 #container .maps-wrap .maps #drift-map .right h3 {
 	font-size: larger;
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #2d2d2d;
 }
 #container .maps-wrap .maps #drift-map .right p {
 	font-size: smaller;
-	font-family: sans-serif;
+	font-family: 'Titillium web', sans-serif;
 	color: #2d2d2d;
 }
 
@@ -192,8 +196,8 @@ body {
 /*          Videos          */
 #container .video-wrap {
 	width: 100%;
-	height: 700px;
-	margin-top: 50px;
+	height: 735px;
+	margin-top: 82px;
 }
 #container .video-wrap .video {
 	max-width: 960px;
@@ -201,11 +205,11 @@ body {
 }
 #container .video-wrap .modal-wrap {
 	width: 100.9%;
-	margin-top: 6px;
+	margin-top: 27px;
 }
 #container .video-wrap .modal-wrap a img {
-	width: 19%;
-	margin-right: 6px;
+	width: 181.5px;
+	margin-right: 9px;
 }
 
 /*          Footer          */
@@ -222,7 +226,7 @@ body {
 #container .footer-wrap .footer h2 {
 	color: #FFFFFF;
 	font-size: -webkit-xxx-large;
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	position: relative;
 	top: 40px;
 }
@@ -247,5 +251,5 @@ body {
 #container .footer-wrap .footer p {
 	color: #FFFFFF;
 	font-size: smaller;
-	font-family: sans-serif;
+	font-family: 'Titillium web', sans-serif;
 }
